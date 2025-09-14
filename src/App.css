@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: black;
+  height: 973px;
 }
 
 .App-logo {
@@ -36,3 +38,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+.open-modal-btn {
+  background: #001d3d;
+  color: #00eaff; 
+  border: 2px solid #00eaff;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px #00eaff, 0 0 10px #00eaff;
+  box-shadow: 0 0 10px #001d3d, inset 0 0 10px #001d3d;
+  margin-top: 300px;
+}
+
+.open-modal-btn:hover {
+  background: #001d3d;
+  color: #fff;
+  box-shadow: 0 0 15px #00eaff, 0 0 30px #00eaff;
+  transform: scale(1.05);
+}
+
