@@ -11,9 +11,6 @@ export class Modal extends Component {
         document.addEventListener('keydown', this.keyPress)
     }
 
-
-
-
     keyPress = (e) => {
         if (e.key === 'Escape') {
             this.props.closeModal();
